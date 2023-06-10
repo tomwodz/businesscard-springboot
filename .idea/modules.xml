@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/businesscard/businesscard.iml" filepath="$PROJECT_DIR$/businesscard/businesscard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/businesscard-springboot.iml" filepath="$PROJECT_DIR$/.idea/businesscard-springboot.iml" />
+    </modules>
+  </component>
+</project>

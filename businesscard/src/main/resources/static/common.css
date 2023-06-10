@@ -1,0 +1,96 @@
+body {
+background-color:  #f2f9f9;
+font-size: 16px;
+font-family: Verdana,  serif;
+font-style: normal;
+color: #061029;
+  background-image: url('/background.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#header {
+height: 150px;
+font-size: 40px;
+text-align: right;
+color: #f0d2b6;
+margin: 20px;
+}
+
+#header2 {
+height: 50px;
+}
+
+#menu {
+text-align: center;
+border-bottom: 6px solid #061029;
+margin: 0 auto;
+
+}
+
+#content {
+width: 500px;
+text-align: center;
+margin: 0 auto;
+border-radius: 5px;
+background-color: #eee1d5;
+padding: 5px 20px;
+opacity: 0.9;
+}
+
+.input{
+font-size: 16px;
+margin: 10px;
+border: 2px solid #061029;
+border-radius: 5px;
+padding: 5px 20px;
+color: #b99a7e;
+display: inline-block;
+background-color: #2f3c5f;
+cursor: pointer;
+}
+
+.input_text {
+font-size: 16px;
+margin: 10px;
+border: 2px solid #061029;
+border-radius: 5px;
+padding: 5px 20px;
+color: #b99a7e;
+display: inline-block;
+background-color: #2f3c5f;
+cursor: pointer;
+height: 150px;
+width: 300px;
+resize: none;
+box-sizing: border-box;
+}
+
+.button {
+height: 40px;
+font-size: 20px;
+font-weight: bold;
+margin: 10px;
+text-decoration: none;
+border: 2px solid #061029;
+border-radius: 5px;
+padding: 5px 20px;
+color: #f0d2b6;
+transition: 0.5s;
+background-color: #061029;
+cursor: pointer;
+}
+
+.button:hover {
+height: 40px;
+font-size: 20px;
+margin: 10px;
+text-decoration: none;
+border: 2px solid #061029;
+border-radius: 8px;
+padding: 5px 20px;
+color: white;
+background-color: #2f3c5f;
+cursor: pointer;
+}

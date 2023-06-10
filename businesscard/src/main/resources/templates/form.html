@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmls:th="" xmlns:xmls="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Card - Tomasz Wodzinski</title>
+    <link rel="stylesheet" href="/common.css">
+</head>
+<body background="/background.JPG">
+<div id="header">
+    <p>Tomasz Wodziński<br>
+        Junior Java Developer
+    </p>
+</div>
+<div id="menu">
+    <a href="/" class="button">STRONA GŁÓWNA</a>
+    <a href="/form" class="button">FORMULARZ</a>
+</div>
+<div id="header2">
+</div>
+<div id="content">
+    <form method="get" modelAttribute="email" action="/formSend">
+        <input type="hidden" name="emailRecipient" class="input" value="twodzinski@op.pl"><br>
+        <label>Tytuł:<br>
+            <input type="text"  name="emailSubject" class="input" placeholder="Tytuł">
+        </label><br>
+        <label>Treść wiadomości:<br>
+            <textarea type="text" name="emailContent" class="input_text" placeholder="Treść wiadomości..."></textarea>
+        </label><br>
+        <label>Podpis:<br>
+            <input type="text" name="emailAuthor" class="input" placeholder="Podpis">
+        </label><br>
+        <label>Adres e-mail:<br>
+            <input type="text"  name="emailAuthorAddressEmail" class="input" placeholder="Twój adres e-mail">
+        </label><br>
+        <input type="submit" value="WYŚLIJ" class="button">
+    </form>
+</div>
+</body>
+</html>
